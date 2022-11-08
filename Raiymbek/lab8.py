@@ -7,6 +7,8 @@ def season(m):
         return "Лето"
     if m>8 and m<12:
         return "Осень"
+    else: # else қостым
+        return "Такого номер месяц нету" # яғни бізге ондай ай номері жоқ деп қайтарып береді
 
 m=int(input("Введите номер месяц: "))
 print(season(m))
