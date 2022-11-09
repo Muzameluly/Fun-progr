@@ -24,3 +24,5 @@ analysis(lst, dct)
  
 for item in sorted(dct):
     print("'%d':%d" % (item, dct[item]))
+
+#Raiymbek
