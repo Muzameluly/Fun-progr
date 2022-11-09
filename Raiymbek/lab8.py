@@ -12,3 +12,5 @@ def season(m):
 
 m=int(input("Введите номер месяц: "))
 print(season(m))
+
+#Ernar
