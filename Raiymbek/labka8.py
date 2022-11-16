@@ -24,6 +24,10 @@ analysis(lst, dct)
  
 for item in sorted(dct):
     print("'%d':%d" % (item, dct[item]))
+<<<<<<< HEAD
 
 #Raiymbek
 #Asylbek
+=======
+ #ERnar
+>>>>>>> 339b2f9ece6b8774831c8e7a429f4fc47c351024
