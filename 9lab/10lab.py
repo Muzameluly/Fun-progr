@@ -28,13 +28,8 @@ def maximum(arr):
 list1 = [1.45,4.21,5,2,6.123]
 result = maximum(list1)
 print(round(result))
-<<<<<<< HEAD
 
 
-=======
-'''
-'''
->>>>>>> 8935c15281096b7bbff869ceed015cd73791520b
 def fill_list(m1, m2, amount, l):
     from random import randint
     for i in range(amount):
@@ -61,9 +56,9 @@ analysis(lst, dct)
  
 for item in sorted(dct):
     print("'%d':%d" % (item, dct[item]))
-'''
 
-"""
+
+
 #Super
 class Computer():
     def __init__(self, computer, ram, ssd):
@@ -79,7 +74,6 @@ class Laptop(Computer):
         self.model = model
 
 
-<<<<<<< HEAD
 class Employee:
   emp_comp = "Amazon"
   emp_age = 20
@@ -103,7 +97,7 @@ del Employee.emp_age
 print(hasattr(e, 'emp_age'))      
 print(hasattr(e1, 'emp_age'))
 
-=======
+
 lenovo = Laptop('lenovo', 2, 512, 'l420')
 
 print('This computer is:', lenovo.computer)
@@ -115,16 +109,14 @@ print('This computer has this model:', lenovo.model)
 # This computer has ram of 2
 # This computer has ssd of 512
 # This computer has this model: l420
-"""
-"""
+
 #Open,close
 my_file = open("some.txt")
 print ("Имя файла: ", my_file.name)
 print ("Файл закрыт: ", my_file.closed)
 my_file.close()
 print ("А теперь закрыт: ", my_file.closed)
-"""
-"""
+
 #Next
 marks = [65, 71, 68, 74, 61]
 
@@ -138,8 +130,7 @@ print(marks_1)
 # find the next element which is the second element
 marks_2 = next(iterator_marks)
 print(marks_2)
-"""
-"""
+
 #Write append
 # Python program to illustrate
 # Append vs write mode
@@ -169,19 +160,16 @@ print("Output of Readlines after writing")
 print(file1.readlines())
 print()
 file1.close()
-"""
-"""
+
 #Sorted
 numbers = [4, 2, 12, 8]
 
 sorted_numbers = sorted(numbers)
 print(sorted_numbers)
-"""
-"""
+
 #max min
 a = [11,8,12,0] 
 print(min(a)) 
 print(max(a)) 
-"""
->>>>>>> 8935c15281096b7bbff869ceed015cd73791520b
+
 
