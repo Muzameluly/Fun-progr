@@ -1,4 +1,4 @@
-'''
+
 import math
 a = int(input('введи коэфициент a:'))
 b = int(input('введи коэфициент b:'))
@@ -14,9 +14,9 @@ else:
    x1 = (-b + math.sqrt(D))/(2*a)
    x2 = (-b - math.sqrt(D))/(2*a)
    print (x1, x2)
-'''
 
-'''
+
+
 def maximum(arr): 
     max = arr[0]
     for ele in arr:
@@ -28,7 +28,7 @@ def maximum(arr):
 list1 = [1.45,4.21,5,2,6.123]
 result = maximum(list1)
 print(round(result))
-'''
+
 
 def fill_list(m1, m2, amount, l):
     from random import randint
@@ -56,5 +56,29 @@ analysis(lst, dct)
  
 for item in sorted(dct):
     print("'%d':%d" % (item, dct[item]))
+
+
+class Employee:
+  emp_comp = "Amazon"
+  emp_age = 20
+
+  def defaultMethod(self):
+    print("This is a default method")
+    
+e = Employee()
+e1 = Employee()
+
+print(getattr(e, 'emp_age')) 
+print(hasattr(e, 'emp_comp'))      
+print(hasattr(e1, 'emp_comp'))      
+delattr(Employee, 'emp_comp')    
+print(hasattr(e, 'emp_comp'))      
+print(hasattr(e1, 'emp_comp'))      
+
+print(hasattr(e, 'emp_age'))      
+print(hasattr(e1, 'emp_age'))      
+del Employee.emp_age          
+print(hasattr(e, 'emp_age'))      
+print(hasattr(e1, 'emp_age'))
 
 
