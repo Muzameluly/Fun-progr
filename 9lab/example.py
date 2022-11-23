@@ -1,5 +1,5 @@
 '''
-
+#нефункциональное функция
 sentences = ['капитан джек воробей',
              'капитан дальнего плавания',
              'ваша лодка готова, капитан']
@@ -10,6 +10,8 @@ for sentence in sentences:
 
 print(cap_count)
 '''
+'''
+#функциональное функция
 from functools import reduce
 
 sentences = ['капитан джек воробей',
@@ -20,6 +22,7 @@ cap_count = reduce(lambda a, x: a + x.count('капитан'),
                    sentences,0)
 
 print(cap_count)
+'''
 
 
 '''
@@ -65,6 +68,7 @@ printScores("Ernar",100, 85, 90, 92, 100)
 '''
 
 '''
+
 from functools import reduce
 
 # filter
@@ -82,4 +86,6 @@ def add(x,y):
 	return x + y
 print(reduce(add, range(1, 11)))
 '''
+
+
 
