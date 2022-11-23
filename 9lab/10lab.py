@@ -28,8 +28,13 @@ def maximum(arr):
 list1 = [1.45,4.21,5,2,6.123]
 result = maximum(list1)
 print(round(result))
+<<<<<<< HEAD
 
 
+=======
+'''
+'''
+>>>>>>> 8935c15281096b7bbff869ceed015cd73791520b
 def fill_list(m1, m2, amount, l):
     from random import randint
     for i in range(amount):
@@ -56,8 +61,25 @@ analysis(lst, dct)
  
 for item in sorted(dct):
     print("'%d':%d" % (item, dct[item]))
+'''
+
+"""
+#Super
+class Computer():
+    def __init__(self, computer, ram, ssd):
+        self.computer = computer
+        self.ram = ram
+        self.ssd = ssd
+
+# Если создать дочерний класс `Laptop`, то будет доступ 
+# к свойству базового класса благодаря функции super().
+class Laptop(Computer):
+    def __init__(self, computer, ram, ssd, model):
+        super().__init__(computer, ram, ssd)
+        self.model = model
 
 
+<<<<<<< HEAD
 class Employee:
   emp_comp = "Amazon"
   emp_age = 20
@@ -81,4 +103,85 @@ del Employee.emp_age
 print(hasattr(e, 'emp_age'))      
 print(hasattr(e1, 'emp_age'))
 
+=======
+lenovo = Laptop('lenovo', 2, 512, 'l420')
+
+print('This computer is:', lenovo.computer)
+print('This computer has ram of', lenovo.ram)
+print('This computer has ssd of', lenovo.ssd)
+print('This computer has this model:', lenovo.model)
+# Вывод
+# This computer is: lenovo
+# This computer has ram of 2
+# This computer has ssd of 512
+# This computer has this model: l420
+"""
+"""
+#Open,close
+my_file = open("some.txt")
+print ("Имя файла: ", my_file.name)
+print ("Файл закрыт: ", my_file.closed)
+my_file.close()
+print ("А теперь закрыт: ", my_file.closed)
+"""
+"""
+#Next
+marks = [65, 71, 68, 74, 61]
+
+# convert list to iterator
+iterator_marks = iter(marks)
+
+# the next element is the first element
+marks_1 = next(iterator_marks)
+print(marks_1)
+
+# find the next element which is the second element
+marks_2 = next(iterator_marks)
+print(marks_2)
+"""
+"""
+#Write append
+# Python program to illustrate
+# Append vs write mode
+file1 = open("myfile.txt","w")
+L = ["This is Delhi \n","This is Paris \n","This is London \n"] 
+file1.writelines(L)
+file1.close()
+  
+# Append-adds at last
+file1 = open("myfile.txt","a")#append mode
+file1.write("Today \n")
+file1.close()
+  
+file1 = open("myfile.txt","r")
+print("Output of Readlines after appending") 
+print(file1.readlines())
+print()
+file1.close()
+  
+# Write-Overwrites
+file1 = open("myfile.txt","w")#write mode
+file1.write("Tomorrow \n")
+file1.close()
+  
+file1 = open("myfile.txt","r")
+print("Output of Readlines after writing") 
+print(file1.readlines())
+print()
+file1.close()
+"""
+"""
+#Sorted
+numbers = [4, 2, 12, 8]
+
+sorted_numbers = sorted(numbers)
+print(sorted_numbers)
+"""
+"""
+#max min
+a = [11,8,12,0] 
+print(min(a)) 
+print(max(a)) 
+"""
+>>>>>>> 8935c15281096b7bbff869ceed015cd73791520b
 

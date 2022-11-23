@@ -21,7 +21,6 @@ del Employee.emp_age
 print(hasattr(e, 'emp_age'))      
 print(hasattr(e1, 'emp_age'))  
 
-dir(e)
 
 
 
